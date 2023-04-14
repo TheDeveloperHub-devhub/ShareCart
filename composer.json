@@ -1,9 +1,9 @@
 {
-    "name": "developerhub/share-cart",
+    "name": "devhub/share-cart",
     "description": "Using this extension, the customers can share his cart with his friends and they can add that items to cart on single click.",
     "require": {
         "php": ">=7.4.0",
-        "developerhub/core": "1.0.*"
+        "devhub/core": "1.0.*"
     },
     "type": "magento2-module",
     "version": "1.0.0",

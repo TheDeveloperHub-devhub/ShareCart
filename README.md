@@ -10,7 +10,7 @@
 
 1. Please run the following command
 ```shell
-composer require developerhub/share-cart
+composer require devhub/share-cart
 ```
 
 2. Update the composer if required

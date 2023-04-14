@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="DeveloperHub_ShareCart::title"
+             title="Share Cart"
+             module="DeveloperHub_ShareCart"
+             sortOrder="10"
+             parent="DeveloperHub_Core::developerhub"
+             resource="DeveloperHub_ShareCart::title"/>
+
+        <add id="DeveloperHub_ShareCart::sharecart"
+             title="Share Cart"
+             module="DeveloperHub_ShareCart"
+             sortOrder="10"
+             parent="DeveloperHub_ShareCart::title"
+             resource="DeveloperHub_ShareCart::sharecart"
+             action="admin/system_config/edit/section/developerhub/share_cart"/>
+    </menu>
+</config>

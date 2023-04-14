@@ -1,0 +1,15 @@
+{
+    "developerhub_share_cart": {
+        "column": {
+            "entity_id": true,
+            "product_data": true,
+            "hash": true
+        },
+        "index": {
+            "DEVELOPERHUB_SHARE_CART_ENTITY_ID": true
+        },
+        "constraint": {
+            "PRIMARY": true
+        }
+    }
+}

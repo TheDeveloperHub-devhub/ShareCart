@@ -1,0 +1,28 @@
+{
+    "name": "developerhub/share-cart",
+    "description": "Using this extension, the customers can share his cart with his friends and they can add that items to cart on single click.",
+    "require": {
+        "php": ">=7.4.0",
+        "developerhub/core": "1.0.*"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "proprietary"
+    ],
+    "authors": [
+        {
+            "name": "Support",
+            "homepage": "https://www.thedeveloperhub.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "DeveloperHub\\ShareCart\\": ""
+        }
+    }
+}

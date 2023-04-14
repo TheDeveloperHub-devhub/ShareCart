@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+    <table name="developerhub_share_cart" resource="default" engine="innodb"
+           comment="Stores Cart Products along with a unique identifier so it can be used to share cart.">
+        <column xsi:type="int" name="entity_id" unsigned="true" nullable="false" identity="true" comment="Entity ID"/>
+        <column xsi:type="text" name="product_data"  nullable="false" comment="Stores JSON data key value pairs of SKU's and Quantity"/>
+        <column xsi:type="text" name="hash" nullable="false" comment="Unique identifier for quote sharing."/>
+        <constraint xsi:type="primary" referenceId="PRIMARY">
+            <column name="entity_id"/>
+        </constraint>
+        <index referenceId="DEVELOPERHUB_SHARE_CART_ENTITY_ID" indexType="btree">
+            <column name="entity_id"/>
+        </index>
+    </table>
+</schema>

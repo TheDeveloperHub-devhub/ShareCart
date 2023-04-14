@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <developerhub>
+            <share_cart>
+                <share_cart_enabled>1</share_cart_enabled>
+                <email_subject>Your Friend Has Shared His Cart With You</email_subject>
+                <email_followup_message>Follow the link below to add the products to your shopping cart.</email_followup_message>
+            </share_cart>
+        </developerhub>
+    </default>
+</config>

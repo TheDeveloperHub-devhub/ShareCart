@@ -1,0 +1,17 @@
+<!--@subject {{var email_subject}} @-->
+{{template config_path="design/email/header_template"}}
+<div class="email-information">
+    <div class="share-cart">
+        <div class="order-totals-inner">
+            <div class="address-details">
+                <p>{{var intro_text|raw}},</p>
+                <p>{{var from_info_text|raw}}</p>
+                <p>Message: </p>
+                <p>{{var message_text|raw}}</p>
+                <p>{{var add_product_text|raw}}</p>
+                <a href="{{var add_product_link|raw}}"><u>{{var add_product_link|raw}}</u></a>
+            </div>
+        </div>
+    </div>
+</div>
+{{template config_path="design/email/footer_template"}}
